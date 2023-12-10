@@ -1,0 +1,142 @@
+h1 {
+  font-family: Courier New;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #6a6a8b;
+  text-align: center;
+}
+
+h2 {
+  font-family: Courier New;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #6a6a8b;
+  text-align: center;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 16px;
+  color: #6a6a8b;
+}
+
+body {
+  font-family: Arial;
+  font-size: 14px;
+  background-color: #F7F9FC;
+  color: rgb(36, 35, 35);
+  text-align: justify;
+  line-height: 20px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(95, 95, 97);
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: rgb(78, 43, 235);
+}
+
+.img-circle {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  margin: 0 20px 5px 0;
+}
+
+.btn-grey{
+  background-color: #f5f0ee;
+  color: gray;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  padding: 10px 10px 10px 10px;
+}
+.btn-grey:hover {
+  background-color: #6a6a8b;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-introduction {
+  background: white;
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15 px rgba(0,0,0,0.2)
+}
+
+.card-white {
+  background: white;
+  padding: 0 30px 0 0;
+  margin: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15 px rgba(0,0,0,0.2)
+}
+
+.card-footer {
+  background: white;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15 px rgba(0,0,0,0.2)
+}
+
+.card-bottom {
+  background: white;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15 px rgba(0,0,0,0.2)
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
